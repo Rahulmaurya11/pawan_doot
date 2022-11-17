@@ -17,7 +17,7 @@ requirementGathering();
 
         System.out.println("Enter a contact number");
         String number = in.next();
-        System.out.println("Selected product is ");
+        System.out.println("Selected product is:");
         switch (opt) {
             case 1:
                 System.out.println("Pease (mutter)");
@@ -31,6 +31,8 @@ requirementGathering();
             case 4:
                 System.out.println("Ice cream");
                 break;
+            default:
+                System.out.println("invalid input");
         }
         System.out.println("Contact number: " + number);
 
