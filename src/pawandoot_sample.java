@@ -2,10 +2,12 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class pawandoot_sample {
+
     public static void main(String[] args) {
 requirementGathering();
+
     }
-    public static void requirementGathering () {
+    public  static void requirementGathering () {
         Scanner in = new Scanner(System.in);
         System.out.println("1. Pease (mutter) " + '\n' + "2. Panner (Indian cottage cheese)" + '\n' + "3. Cold Drink" + '\n' + "4. ice cream");
         System.out.println("please enter 1,2,3 or 4 from above list her e :--> ");
